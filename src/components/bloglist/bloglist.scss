@@ -13,12 +13,16 @@
     display: flex;
     //background: linear-gradient(to bottom, $bg1, $bg2);
     background: $text1;
-    border-radius: 10px;
+    border-radius: $homeBorderRadius;
     overflow: hidden;
     border: $homeBorder;
 
-    @media screen and (min-width: 1232px) {
-      width: 32%;
+    @media screen and (min-width: 768px) {
+      width: 48%; /* 2 posts per row  */
+    }
+
+    @media screen and (min-width: 990px) {
+      width: 32%; /* 3 posts per row  */
     }
     a {
       width: 100%;

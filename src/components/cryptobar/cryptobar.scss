@@ -76,6 +76,21 @@
       color: red;
     }
   }
+
+  @media screen and (min-width: $small) {
+    flex-wrap: unset;
+    font-size: $font-m;
+    gap: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    p {
+      font-size: $font-m;
+    }
+    .price-change {
+      font-size: $font-s;
+    }
+  }
 }
 
 @keyframes scroll {

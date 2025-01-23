@@ -29,9 +29,14 @@ ul {
   overflow: hidden;
   border: 1px solid #aacbc4;
 }
-@media screen and (min-width: 1232px) {
+@media screen and (min-width: 768px) {
   .post-feed .post-card {
-    width: 32%;
+    width: 48%; /* 2 posts per row  */
+  }
+}
+@media screen and (min-width: 990px) {
+  .post-feed .post-card {
+    width: 32%; /* 3 posts per row  */
   }
 }
 .post-feed .post-card a {
