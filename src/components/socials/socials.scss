@@ -1,0 +1,53 @@
+@import "../../_variables";
+
+$socialsPosition: 0.5em;
+$socialsButtonSize: 30px;
+$socialsButtonIconSize: 65%;
+
+.socials-share {
+  position: absolute;
+
+  top: $socialsPosition;
+  right: $socialsPosition;
+  display: flex;
+  gap: 0.25em;
+  background: $bg2;
+  padding: 0.25em;
+  border-radius: 10px;
+
+  button {
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    background: $mountmeadow;
+    padding: 0;
+    height: $socialsButtonSize;
+    width: $socialsButtonSize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    cursor: pointer;
+
+    svg {
+      width: $socialsButtonIconSize;
+      height: $socialsButtonIconSize;
+
+      path {
+        color: $antiflashwhite;
+      }
+    }
+
+    &:hover {
+      path {
+        transform: scale(1.2) translateX(-2px) translateY(-2px);
+      }
+    }
+  }
+}
+
+.blog-post header .socials-share {
+  top: unset;
+  bottom: -4em;
+  right: 0.5em;
+}

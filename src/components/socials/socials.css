@@ -1,0 +1,54 @@
+h1 {
+  font-size: 1.25em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials-share {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  display: flex;
+  gap: 0.25em;
+  background: #041010;
+  padding: 0.25em;
+  border-radius: 10px;
+}
+.socials-share button {
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  background: #2cc295;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  cursor: pointer;
+}
+.socials-share button svg {
+  width: 65%;
+  height: 65%;
+}
+.socials-share button svg path {
+  color: #f1f7f6;
+}
+.socials-share button:hover path {
+  transform: scale(1.2) translateX(-2px) translateY(-2px);
+}
+
+.blog-post header .socials-share {
+  top: unset;
+  bottom: -4em;
+  right: 0.5em;
+}/*# sourceMappingURL=socials.css.map */

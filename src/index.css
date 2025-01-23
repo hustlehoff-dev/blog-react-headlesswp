@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+h1 {
+  font-size: 1.25em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+* {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  transition: 0.25s ease-out;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dfecea;
+  padding-top: 50px;
+}
+
+.content {
+  max-width: 1192px;
+  margin: 0px auto;
+  padding: 20px;
+}
+@media screen and (min-width: 1232px) {
+  .content {
+    padding: 0;
+  }
+}
+
+.blog-preview {
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.blog-preview h2 {
+  font-size: 1.5em;
+  color: #0066ff;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-content article h2 {
+  margin-bottom: 5px;
+}
+.blog-content article p {
+  margin-bottom: 20px;
+}
+.blog-content article div {
+  text-align: justify;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.create form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=index.css.map */

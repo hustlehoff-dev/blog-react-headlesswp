@@ -1,0 +1,59 @@
+@import "../../_variables";
+
+.blog-content {
+  width: 100%;
+
+  article.blog-post {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
+    position: relative;
+    header {
+      display: flex;
+      order: 0;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+      width: 100%;
+      h1 {
+        font-weight: 700;
+        width: 100%;
+      }
+      p {
+        font-size: $font-xs;
+        margin: 0;
+      }
+    }
+    img {
+      width: 100%;
+      order: 1;
+      padding: 2.5px;
+    }
+
+    div {
+      order: 2;
+      line-height: 1.775;
+      font-size: $font-m;
+      text-align: left;
+      text-size-adjust: 100%;
+      word-break: break-word;
+      tab-size: 4;
+      unicode-bidi: isolate;
+    }
+  }
+
+  .ads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background: $text3;
+    font-weight: 600;
+    opacity: 0.8;
+    width: 60%;
+    margin: 0 auto 48px auto;
+    border-radius: 10px;
+  }
+}

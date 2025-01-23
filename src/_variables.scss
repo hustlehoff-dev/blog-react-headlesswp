@@ -1,0 +1,47 @@
+$mountmeadow: #2cc295;
+$antiflashwhite: #f1f7f6;
+$antiflashbg: #dfecea;
+$carribgreen: #00df81;
+$accent1: #03624c;
+$accent2: #61ce70;
+$bgsec: #032221;
+$bgmain: #021b1a;
+$sv2: #aacbc4;
+$sv1: #707d7d;
+$bg1: #04634d;
+$bg2: #041010;
+$bg3: #01e083;
+$text1: #ebf6f2;
+$text2: #003620;
+$text3: #29c093;
+$dark: #111111;
+$black: #000;
+
+$font-xxs: 0.5em;
+$font-xs: 0.7em;
+$font-s: 0.85em;
+$font-m: 1em;
+$font-l: 1.25em;
+$font-xl: 1.5em;
+
+$homeBorder: 1px solid $sv2;
+$homeBorderRadius: 10px;
+
+// Window size
+$small: 768px;
+$medium: 990px;
+$large: 1280px;
+$xl: 1920px;
+
+h1 {
+  font-size: $font-l;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: $font-l;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}

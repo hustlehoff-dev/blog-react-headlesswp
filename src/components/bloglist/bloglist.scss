@@ -1,0 +1,58 @@
+@import "../../_variables";
+
+.post-feed {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  .post-card {
+    width: 100%;
+    position: relative;
+    min-height: 350px;
+    display: flex;
+    //background: linear-gradient(to bottom, $bg1, $bg2);
+    background: $text1;
+    border-radius: 10px;
+    overflow: hidden;
+    border: $homeBorder;
+
+    @media screen and (min-width: 1232px) {
+      width: 32%;
+    }
+    a {
+      width: 100%;
+      text-decoration: none;
+      color: $sv2;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+      }
+
+      header {
+        flex: 1;
+        padding: 1rem 1.2rem 0.5rem 1.2rem;
+        h2 {
+          color: $text2;
+        }
+      }
+
+      footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1.2rem 1rem 1.2rem;
+        p {
+          color: $text2;
+          font-weight: 500;
+        }
+        .posted-ago {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

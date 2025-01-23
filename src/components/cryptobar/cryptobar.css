@@ -1,0 +1,87 @@
+h1 {
+  font-size: 1.25em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.crypto-slider {
+  width: 100%;
+  overflow: hidden;
+  background: #f1f7f6;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  border: 1px solid #aacbc4;
+  border-width: 1px 0;
+  padding-bottom: 1px;
+  position: relative;
+}
+.crypto-slider::before, .crypto-slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  z-index: 10;
+  pointer-events: none;
+}
+.crypto-slider::before {
+  left: 0;
+  background: linear-gradient(to right, rgb(255, 255, 255) 20%, rgba(255, 255, 255, 0));
+}
+.crypto-slider::after {
+  right: 0;
+  background: linear-gradient(to left, rgb(255, 255, 255) 20%, rgba(255, 255, 255, 0));
+}
+
+.crypto-slider-track {
+  display: flex;
+  animation: scroll 69s linear infinite;
+}
+
+.crypto-coin {
+  margin-right: 30px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.crypto-coin span {
+  font-weight: 700;
+}
+.crypto-coin p {
+  font-size: 0.85em;
+}
+.crypto-coin .price-change {
+  font-weight: 400;
+  font-size: 0.7em;
+  display: flex;
+  align-items: center;
+}
+.crypto-coin .price-change.positive {
+  color: green;
+}
+.crypto-coin .price-change.negative {
+  color: red;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(2%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}/*# sourceMappingURL=cryptobar.css.map */
