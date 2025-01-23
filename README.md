@@ -1,4 +1,4 @@
-React Crypto Blog - Headless WordPress
+# React Crypto Blog - Headless WordPress
 
 A modern cryptocurrency blog built with React for the frontend and WordPress as the headless backend. This project demonstrates the integration of React with WordPress REST API to deliver a fast, responsive, and scalable blogging platform tailored for cryptocurrency enthusiasts.
 
