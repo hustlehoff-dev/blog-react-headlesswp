@@ -51,7 +51,9 @@ While there are more advanced backend solutions available, WordPress was the per
 - **Desktop Styles**: Currently preparing desktop styles (app created using mobile-1st approach).
 - **Subpages**: I will add subpages (Guides, Wallets).
 - **Socials**: I will add likes/share socials features with counters.
--
+- **Dark Mode**: Currently implementing dark mode for the app.
+- **Authors**: I will add authors pages that display their contributions.
+- **Multilinguality**: I am going to add other languages support.
 
 All rights reserved.  
 This software and its source code are the property of @hustlehoff-dev.  
