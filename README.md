@@ -4,6 +4,8 @@ A modern cryptocurrency blog built with React for the frontend and WordPress as 
 
 While there are more advanced backend solutions available, WordPress was the perfect choice for my needs in this project. Its flexibility and ease of integration with React allowed for rapid development. If required, the project can be easily adapted to work with more robust backend solutions in the future, such as Node.js (Express), Django or Flask (Python), Ruby on Rails, or modern headless CMS platforms like Strapi, Contentful, or Sanity.io.
 
+Live version can be accessed: https://comeincrypto.com/
+
 ---
 
 ## Features
