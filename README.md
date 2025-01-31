@@ -37,6 +37,8 @@ Live version can be accessed: https://comeincrypto.com/
 ### Frontend
 
 - **React**: Component-based architecture for building the user interface.
+- **Typescript**: Used typescript.
+- **NextJS**: Project is being rewritten to NextJS, which fixes SEO issues in general.
 - **React Router**: For handling dynamic routing.
 - **Fetching**: Raw API calls. Project could use Axios/GraphQL, but it was not necessary for my needs.
 - **Styles**: Used SASS/SCSS for styling. Variables are stored in \_variables.scss in root folder.

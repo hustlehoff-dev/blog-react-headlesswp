@@ -1,23 +1,27 @@
 import React from "react";
 import "./homewidgets.css";
 import { Link } from "react-router-dom";
+
 const HomeWidgets = () => {
   return (
     <section id="widgets" className="widgets">
-      <Link>
-        <button className=" scroll-element">How to Buy Bitcoin</button>
+      <Link to={"/guides/#blockchainbasics"}>
+        <button>Blockchain Basics</button>
       </Link>
-      <Link to={"/guides"}>
-        <button>Cold Wallets</button>
+      <Link to={"/guides/#howtobuy"}>
+        <button>How to Buy Crypto</button>
       </Link>
-      <Link to={"/guides"}>
-        <button>CryptoGuides</button>
+      <Link to={"/guides/#wallets"}>
+        <button>Crypto Wallets</button>
       </Link>
-      <Link to={"/guides"}>
-        <button>Mock Button</button>
+      <Link to={"/guides/#exchanges"}>
+        <button>Exchanges</button>
       </Link>
-      <Link to={"/guides"}>
-        <button>Mock Button</button>
+      <Link to={"/guides/#halvingscycles"}>
+        <button>Halvings & Cycles</button>
+      </Link>
+      <Link to={"/guides/"}>
+        <button></button>
       </Link>
     </section>
   );

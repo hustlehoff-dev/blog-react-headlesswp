@@ -10,4 +10,15 @@ h2 {
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+.guides {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.guides section {
+  background: lightgrey;
+  width: 100%;
 }/*# sourceMappingURL=guides.css.map */
