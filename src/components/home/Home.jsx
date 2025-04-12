@@ -1,7 +1,7 @@
 import BlogList from "./../bloglist/BlogList";
 import useFetch from "./../usefetch/UseFetch";
 import LoadCat from "../loadcat/LoadCat";
-import HomeWidgets from "../homewidgets/HomeWidgets";
+//import HomeWidgets from "../homewidgets/HomeWidgets";
 
 const Home = () => {
   const {
@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <HomeWidgets />
+      {/*<HomeWidgets />*/}
       {posts && (
         <BlogList
           getPostedAgo={getPostedAgo}
